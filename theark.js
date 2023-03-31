@@ -6,7 +6,7 @@ const ejs = require("ejs");
 const app = express();
 app.listen(process.env.PORT || 3000);
 
-client.login()
+client.login(process.env.TOKEN)
   .then(() => console.log("Giriş başarılı!"))
   .catch(() => console.log("Giriş Başarısız!"));
 
